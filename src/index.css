@@ -1,13 +1,184 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -19px;
+}
+.heading .customer {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+.heading p {
+  font-size: small;
+  line-height: 5px;
+  margin-left: 5px;
+}
+li {
+  list-style: none;
+}
+li i {
+  font-size: 30px;
+}
+.heading .cart {
+  display: flex;
+  margin-top: 25px;
+  margin-right: 70px;
+}
+.cart li {
+  margin-right: 5px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+  margin-top: -8px;
+  width: 100%;
+}
+.scrolled {
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+  margin-top: -8px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+}
+.scrolled ul {
+  display: flex;
+}
+.navigation ul {
+  display: flex;
+}
+
+.scrolled ul li {
+  margin: 0px 12px;
+  font-weight: 600;
+}
+.navigation ul li {
+  margin: 0px 12px;
+  font-weight: 600;
+}
+.scrolled div li {
+  display: inline;
+  margin-left: 15px;
+  font-size: 20px;
+  color: white;
+}
+.navigation div li {
+  display: inline;
+  margin-left: 15px;
+  font-size: 20px;
+  color: white;
+}
+.scrolled div {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+}
+.navigation div {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+}
+.scrolled div input {
+  border: 1px white;
+  margin-top: 5px;
+  border-radius: 10px;
+  height: 27px;
+  width: 280px;
+  padding: 4px;
+  outline: none;
+}
+.navigation div input {
+  border: 1px white;
+  border-radius: 10px;
+  height: 27px;
+  width: 280px;
+  padding: 4px;
+  outline: none;
+}
+.pic img {
+  width: 100%;
+  height: 600px;
+  margin-top: 0.1px;
+}
+.pic div {
+  z-index: 1;
+  position: absolute;
+  top: 350px;
+  left: 200px;
+}
+.pic p {
+  color: burlywood;
+  font-size: small;
+  margin-bottom: -20px;
+}
+.pic h1 {
+  color: white;
+}
+.pic button {
+  color: white;
+  background-color: burlywood;
+  border: none;
+  padding: 9px 12px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+.pic .left {
+  position: absolute;
+  top: 350px;
+  z-index: 1;
+  left: 60px;
+  color: burlywood;
+}
+.pic .right {
+  z-index: 1;
+  position: absolute;
+  top: 350px;
+  right: 60px;
+  color: burlywood;
+}
+.specials{
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+  justify-content: space-between;
+}
+.specials .dom{
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 70px;
+  border-radius: 20px;
+  height: px;
+  background-color: antiquewhite;
+  padding: 0px 12px;
+}
+.specials h3{
+  font-size: x-small;
+}
+.specials li i{
+  font-size: x-large;
+  color: burlywood;
+}
+.specials p{
+ font-size: xx-small;
+  margin-top: -10px;
 }
